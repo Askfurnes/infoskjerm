@@ -36,5 +36,9 @@ const Station = (props) => {
   const { name, bikesAvailable, spacesAvailable } = props.station;
 
   console.log(name, bikesAvailable, spacesAvailable);
-  return <div className="station">{name} - [bikesAvailable]</div>;
+  return (
+    <div className="station">
+      {name} - {bikesAvailable}
+    </div>
+  );
 };
