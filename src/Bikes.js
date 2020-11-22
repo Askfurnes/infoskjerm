@@ -18,7 +18,7 @@ const Bikes = () => {
         230
       )
       .then((data) => setBikeStations(data));
-    console.log("Fungerer");
+    console.log("useEffect fungerer");
   }, []);
 
   return (
