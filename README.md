@@ -1,2 +1,2 @@
 # Min inforskjerm
-Det er et skjelett foreløpig.
+Nothing to see here yet, just a skeleton of a program.
